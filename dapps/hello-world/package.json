@@ -13,5 +13,8 @@
     "Ionic",
     "DApp",
     "SASS"
-  ]
+  ],
+  "scripts": {
+    "build": "../../node_modules/webpack/bin/webpack.js"
+  }
 }
