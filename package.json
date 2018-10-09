@@ -21,8 +21,7 @@
     "javascript",
     "typescript",
     "API",
-    "Angular 5",
-    "Ionic",
+    "VueJS",
     "DApp",
     "SASS",
     "tutorial"
@@ -31,7 +30,8 @@
   "name": "@evan.network/sample-dapps-js",
   "scripts": {
     "deploy": "gulp --gulpfile node_modules/@evan.network/ui-dapp-browser/gulp/deployment.js deploy --config",
-    "dapps-serve": "gulp --gulpfile ./scripts/dapps-serve.js",
+    "dapps-serve": "gulp --gulpfile ./scripts/dapps-serve.js serve",
+    "dapps-build": "gulp --gulpfile ./scripts/dapps-serve.js build",
     "serve": "gulp --gulpfile node_modules/@evan.network/ui-dapp-browser/gulp/serve.js serve"
   },
   "version": "1.0.0"
