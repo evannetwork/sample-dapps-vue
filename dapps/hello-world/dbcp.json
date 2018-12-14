@@ -3,7 +3,7 @@
     "author": "evan GmbH",
     "dapp": {
       "dependencies": {
-        "bcc": "^1.6.0",
+        "bcc": "^1.6.1",
         "smart-contracts": "^1.4.0"
       },
       "entrypoint": "helloworldvue.js",
