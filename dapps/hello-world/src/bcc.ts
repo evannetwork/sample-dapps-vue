@@ -142,7 +142,7 @@ export async function getProfileForAccount(accountId: string) {
   //              set it by yourself
   keyProvider.setKeysForAccount(
     accountId,
-    lightwallet.getEncryptionKeyFromPassword('unencrypted')
+    lightwallet.getEncryptionKeyFromPassword(accountId, 'unencrypted')
   );
 
   const ipldInstance = new bcc.Ipld({
