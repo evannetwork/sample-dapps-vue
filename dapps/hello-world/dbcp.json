@@ -4,7 +4,7 @@
     "dapp": {
       "dependencies": {
         "bcc": "^1.7.0",
-        "smart-contracts": "^1.5.1"
+        "smart-contracts": "^1.5.2"
       },
       "entrypoint": "helloworldvue.js",
       "files": [
